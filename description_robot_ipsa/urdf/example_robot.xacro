@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<robot name="example_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:include filename="$(find description_robot_ipsa)/urdf/material.xacro"/>
+
+
+  <xacro:macro name="box_inertial" params="mass width height depth">
+    <inertial>
+      <mass value="${mass}"/>
+      <inertia ixx="${mass / 12 * (height*height + depth*depth)}"
+        iyy="${mass / 12 * (width*width + depth*depth)}"
+        izz="${mass / 12 * (width*width + height*height)}"
+        ixy="0" iyz="0" ixz="0"/>
+    </inertial>
+  </xacro:macro>
+
+  <!-- ***************************************** -->
+  <link name="world"/>
+  <joint name="world_to_base" type="fixed">
+    <parent link="world"/>
+    <child link="base_link"/>
+  </joint>
+
+  <link name="base_link">
+    <!-- TODO -->
+  </link>
+
+  <!-- ***************************************** -->
+  <link name="link1">
+    <!-- TODO -->
+  </link>
+
+  <joint name="base_link_to_1" type="revolute">
+    <!-- TODO -->
+  </joint>
+
+  <!-- ***************************************** -->
+  <link name="link2_left">
+    <!-- TODO -->
+  </link>
+
+  <joint name="1_to_left" type="revolute">
+    <!-- TODO -->
+  </joint>
+
+  <!-- ***************************************** -->
+  <link name="link2_right">
+    <!-- TODO -->
+  </link>
+
+  <joint name="1_to_right" type="revolute">
+    <!-- TODO -->
+  </joint>
+
+  <!-- ***************************************** -->
+  <link name="head">
+    <!-- TODO -->
+  </link>
+
+  <joint name="1_to_head" type="revolute">
+    <!-- TODO -->
+  </joint>
+</robot>
