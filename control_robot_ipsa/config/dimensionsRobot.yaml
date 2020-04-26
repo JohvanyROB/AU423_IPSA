@@ -5,3 +5,9 @@ robot_ipsa:
   l3: .2
   l4: .05
   alpha: rad(0)
+  lim1_lower: rad(-pi)
+  lim1_upper: 0
+  lim2_lower: 0
+  lim2_upper: rad(pi)
+  lim3_lower: rad(-pi/2)
+  lim3_upper: rad(pi)
