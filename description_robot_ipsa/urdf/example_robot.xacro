@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <robot name="example_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
   <xacro:include filename="$(find description_robot_ipsa)/urdf/material.xacro"/>
-
+  <!--Add the xacro:property tags here-->
 
   <xacro:macro name="box_inertial" params="mass width height depth">
     <inertial>
@@ -25,38 +25,38 @@
   </link>
 
   <!-- ***************************************** -->
-  <link name="link1">
-    <!-- TODO -->
+  <!--<link name="link1">
+    
   </link>
 
   <joint name="base_link_to_1" type="revolute">
-    <!-- TODO -->
-  </joint>
+    
+  </joint>-->
 
   <!-- ***************************************** -->
-  <link name="link2_left">
-    <!-- TODO -->
+  <!--<link name="link2_left">
+
   </link>
 
   <joint name="1_to_left" type="revolute">
-    <!-- TODO -->
-  </joint>
+
+  </joint>-->
 
   <!-- ***************************************** -->
-  <link name="link2_right">
-    <!-- TODO -->
+  <!--<link name="link2_right">
+
   </link>
 
   <joint name="1_to_right" type="revolute">
-    <!-- TODO -->
-  </joint>
+    
+  </joint>-->
 
   <!-- ***************************************** -->
-  <link name="head">
-    <!-- TODO -->
+  <!--<link name="head">
+    
   </link>
 
   <joint name="1_to_head" type="revolute">
-    <!-- TODO -->
-  </joint>
+ 
+  </joint>-->
 </robot>
