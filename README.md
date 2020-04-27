@@ -64,17 +64,17 @@ source ~/.bashrc
 ```
 
 
+## Install a dependency
+If you have ROS Kinetic, replace "melodic" by "kinetic" in the following command:
+```bash
+sudo apt install ros-melodic-joint-state-publisher-gui ros-melodic-effort-controllers ros-melodic-joint-state-controller ros-melodic-controller-manager 
+```
+
+
 ## Clone this repository in your workspace
 ```bash
 cd ~/catkin_ws/src
 git clone https://github.com/JohvanyROB/AU423_IPSA
 roscd && cd ..
 catkin_make
-```
-
-
-## Install a dependency
-If you have ROS Kinetic, replace "melodic" by "kinetic" in the following command:
-```bash
-sudo apt install ros-melodic-joint-state-publisher-gui ros-melodic-effort-controllers ros-melodic-joint-state-controller ros-melodic-controller-manager 
 ```
