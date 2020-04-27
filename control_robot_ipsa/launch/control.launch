@@ -9,5 +9,5 @@
 
   <!-- load the controllers -->
  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
-   output="screen" ns="/" args="arm1_position_controller arm2_position_controller arm3_position_controller joint_state_controller"/>
+   output="screen" ns="/robot_ipsa" args="arm1_position_controller arm2_position_controller arm3_position_controller joint_state_controller"/>
 </launch>
