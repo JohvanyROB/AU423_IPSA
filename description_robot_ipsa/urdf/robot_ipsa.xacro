@@ -41,38 +41,38 @@
   </link>
 
   <!-- ***************************************** -->
-  <link name="arm1">
-    <!-- TODO -->
+  <!--<link name="arm1">
+    
   </link>
 
   <joint name="base_link_to_arm1" type="revolute">
-    <!-- TODO-->
-  </joint>
+    
+  </joint>-->
 
   <!-- ***************************************** -->
-  <link name="arm2">
-    <!-- TODO -->
+  <!--<link name="arm2">
+   
   </link>
 
   <joint name="arm1_to_arm2" type="revolute">
-    <!-- TODO -->
-  </joint>
+    
+  </joint>-->
 
   <!-- ***************************************** -->
-  <link name="arm3">
-    <!-- TODO -->
+  <!--<link name="arm3">
+    
   </link>
 
   <joint name="arm2_to_arm3" type="revolute">
-    <!-- TODO -->
-  </joint>
+    
+  </joint>-->
 
   <!-- ***************************************** -->
-  <link name="end_effector">
-    <!-- TODO -->
+  <!--<link name="end_effector">
+    
   </link>
 
   <joint name="arm3_to_end_effector" type="fixed">
-    <!-- TODO -->
-  </joint>
+    
+  </joint>-->
 </robot>
