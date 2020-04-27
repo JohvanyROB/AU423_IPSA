@@ -64,7 +64,7 @@ source ~/.bashrc
 ```
 
 
-## Install dependencies
+## Install dependencies (Kinetic and Melodic)
 If you have ROS Kinetic, replace "melodic" by "kinetic" in the following command:
 ```bash
 sudo apt install ros-melodic-joint-state-publisher-gui ros-melodic-effort-controllers ros-melodic-joint-state-controller ros-melodic-controller-manager 
