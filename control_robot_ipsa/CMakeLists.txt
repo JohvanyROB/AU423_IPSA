@@ -27,3 +27,6 @@ include_directories(
 
 add_executable(planif_robot_ipsa src/planification.cpp)
 target_link_libraries(planif_robot_ipsa ${catkin_LIBRARIES})
+
+add_executable(computeXZ src/computeXZ.cpp)
+target_link_libraries(computeXZ ${catkin_LIBRARIES})
