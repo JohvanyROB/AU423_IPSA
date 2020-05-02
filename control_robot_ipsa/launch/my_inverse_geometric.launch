@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Load the robot's dimensions -->
+  <rosparam file="$(find control_robot_ipsa)/config/dimensionsRobot.yaml" command="load"/>
+
+  <node name="inverse_geometric_model" pkg="control_robot_ipsa" type="planif_robot_ipsa" output="screen"/>
+
+  <!--<rosparam file="$(find control_robot_ipsa)/config/xz.yaml" command="load"/>
+  <node name="computeXZ" pkg="control_robot_ipsa" type="computeXZ" output="screen"/>-->
+</launch>
