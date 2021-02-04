@@ -11,5 +11,5 @@
   <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui"/>
 
   <!-- RVIZ -->
-  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find description_robot_ipsa)/rviz/config.rviz"/>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find description_robot_ipsa)/rviz/config_rds.rviz"/>
 </launch>
