@@ -10,7 +10,7 @@ On the left panel, click on **My Rosjects** ,then create a new one:
 * Name: *AU423_IPSA* (for instance)
 * Description: *This is my project for AU423* (for instance)
 
-Then click on **Create**.
+Then click on **Create** and run the ROSject.
 
 
 
