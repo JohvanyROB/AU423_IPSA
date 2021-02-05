@@ -5,7 +5,9 @@
   <param name="robot_description" command="xacro --inorder $(arg model)" />
 
   <!-- ROBOT STATE PUBLISHER -->
-  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen"/>
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen">
+    <!--<remap from="/joint_states" to="robot_ipsa/joint_states"/>-->
+  </node>
 
   <!-- JOINT STATE PUBLISHER GUI -->
   <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui"/>
