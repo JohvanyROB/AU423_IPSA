@@ -34,6 +34,7 @@
   <joint name="world_to_base" type="fixed">
     <parent link="world"/>
     <child link="base_link"/>
+    <!-- TO DO : add the origin tag here -->
   </joint>
 
   <link name="base_link">
