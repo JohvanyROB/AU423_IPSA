@@ -20,9 +20,9 @@ public:
   Planning(): _receivedCommand(false)
   {
     //Initialization of the publishers and the subscribers
-    _cmdArm1Pub = _nh.advertise<std_msgs::Float64>("/arm1_position_controller/command", 1);
-    _cmdArm2Pub = _nh.advertise<std_msgs::Float64>("/arm2_position_controller/command", 1);
-    _cmdArm3Pub = _nh.advertise<std_msgs::Float64>("/arm3_position_controller/command", 1);
+    _cmdArm1Pub = _nh.advertise<std_msgs::Float64>("/robot_ipsa/arm1_position_controller/command", 1);
+    _cmdArm2Pub = _nh.advertise<std_msgs::Float64>("/robot_ipsa/arm2_position_controller/command", 1);
+    _cmdArm3Pub = _nh.advertise<std_msgs::Float64>("/robot_ipsa/arm3_position_controller/command", 1);
     _poseSub = _nh.subscribe("/desired_2Dpose_effector", 1, &Planning::poseCb, this);
     getDim();
     execute();
