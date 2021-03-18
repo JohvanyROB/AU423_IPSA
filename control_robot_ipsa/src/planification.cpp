@@ -88,7 +88,7 @@ public:
 
   //Loop function
   void execute(){
-    ros::Rate r(1);
+    ros::Rate r(10);
     while(_nh.ok()){
       if(_receivedCommand){
         computeCommands();
